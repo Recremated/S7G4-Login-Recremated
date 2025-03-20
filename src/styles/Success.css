@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.success-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.success-link {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.success-link:hover {
+  text-decoration: underline;
+}
